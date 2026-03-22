@@ -2,12 +2,9 @@
 import streamlit as st 
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.pipeline import Pipeline
 import joblib
 from joblib import load
 import numpy as np
-import shap
-import matplotlib.pyplot as plt
 # np==1.26.4
 
 #FUNÇÃO BOTÃO
