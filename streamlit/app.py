@@ -49,7 +49,7 @@ def probabilidade_risco(modelo, X_novo):
     print(prob[:, 1])
     
 #IMPORTAR BASE LIMPA
-df = pd.read_excel(r'datasets\clean.xlsx')
+df = pd.read_csv(r'https://raw.githubusercontent.com/marcelomguimaraes/tech5/refs/heads/main/datasets/clean.csv', sep=";")
 df = df[['genero', 'inde_22', 'inde_23', 'inde_24', 'ida', 'ieg', 'iaa', 'ips', 'ipp', 'ipv', 'risco']]
 
 #DESENHO DA PÁGINA NO STREAMLIT
